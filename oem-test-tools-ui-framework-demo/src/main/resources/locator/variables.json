@@ -1,0 +1,39 @@
+{
+	"editprompt": {
+		"type": "Button",
+		"path": "//div[@title='Edit Prompts']"
+	},
+	"querypopover": {
+		"type": "PopoverList",
+		"path": "//div[contains(@class,'sapEpmStoryDropdownMenu')]"
+	},
+	
+	"memberselector": {
+		"type": "MemberSelector",
+		"path": "//*[text()='%s']/ancestor::div[contains(@class,'ffVdVariable')]//div[@data-ff-name='VariableDialogVariableMember']"
+	},
+	"dateselector": {
+		"type": "DateSelector",
+		"path": "//*[text()='%s']/ancestor::div[contains(@class,'ffVdVariable')]//div[@class='sapMInputBaseContentWrapper']"
+	},
+	"clearbtn": {
+		"type": "Button",
+		"path": "//*[text()='%s']/ancestor::div[contains(@class,'ffVdVariable')]//div[@data-sap-help-id='ffVdVariableHeader']//button[@data-sap-help-id='ffVdVariableClearButton']"
+	},
+	"dellinebtn": {
+		"type": "Button",
+		"path": "//*[text()='%s']/ancestor::div[contains(@class,'ffVdVariable')]//div[@data-ff-name='VariableDialogVariableMember']//*[@title='%s']/following-sibling::button[@data-ff-name='VariableDialogDeleteLineBtn']"
+	},
+	"deletebtn": {
+		"type": "Button",
+		"path": "//*[text()='%s']/ancestor::div[contains(@class,'ffVdVariable')]//div[@data-ff-name='VariableDialogVariableMember']//button[@data-ff-name='VariableDialogDeleteLineBtn']"
+	},
+	"submitbtn": {
+		"type": "Button",
+		"path": "//button[@data-ff-name='VariableDialogSubmitBtn']"
+	},
+	"variablelabel": {
+		"type": "Span",
+		"path": "//Span[contains(@class,'ffVdVariableTitle')][.='%s']"
+	}
+}

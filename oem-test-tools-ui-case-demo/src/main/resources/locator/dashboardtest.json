@@ -1,0 +1,10 @@
+{
+	"disputeamount": {
+		"type": "Span",
+		"path" : "//span[@class='primary-number']"
+	},
+	"currency": {
+		"type": "Span",
+		"path" : "//div[@class='sapFpaBiRichTextingSectionSubtitleRow']//p/span"
+	}
+}

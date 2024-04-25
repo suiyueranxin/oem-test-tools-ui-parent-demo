@@ -1,0 +1,26 @@
+{
+	"search": {
+		"type": "Button",
+		"path": "//a[@id='sf']"
+	},
+	"searchbox": {
+		"type": "Input",
+		"path": "//input[@id='searchFieldInShell-input-inner']"
+	},
+	"me": {
+		"type": "Button",
+		"path": "//a[@id='meAreaHeaderButton']"
+	},
+	"mepopover": {
+		"type": "PopoverList",
+		"path": "//div[@id='sapUshellMeAreaPopover']"
+	},
+	"app": {
+		"type": "Button",
+		"path": "//div[@id='shellAppTitle']"
+	},
+	"apppopover": {
+		"type": "PopoverList",
+		"path": "//div[@id='sapUshellAppTitlePopover']"
+	}
+}

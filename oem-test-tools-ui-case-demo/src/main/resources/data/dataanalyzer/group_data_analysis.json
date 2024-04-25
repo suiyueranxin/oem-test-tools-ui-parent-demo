@@ -1,0 +1,21 @@
+{
+	"tileName": "Group Data Analysis",
+	"tileGroup": "Analytics for Group Reporting",
+	"user" : "CONSLDTN_SPECIALIST",
+	"variables": {
+		"Consolidation Group": "#",
+		"Version": "Actuals",
+		"Fiscal Year": "Half periods 2020",
+		"Period": "6",
+		"Consolidation Chart of Accounts": "Consolidation Chart of Accts",
+		"FS Item Hierarchy": "Balance Sheet",
+		"Hierarchy Valid On": "2020-06-22"
+	},
+	"builder": {
+		"measures": [],
+		"dimensions": {
+			"row": [],
+			"column": []
+		}
+	}
+}

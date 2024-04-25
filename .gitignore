@@ -1,0 +1,9 @@
+# fold
+**/.settings/
+**/target/
+**/allure-results/
+**/test-output/
+
+# class files
+**/.class
+**/*.jar

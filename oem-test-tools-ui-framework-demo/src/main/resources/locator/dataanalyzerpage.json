@@ -1,0 +1,7 @@
+{
+	"designer": {
+		"type": "Button",
+		"path": "//span[@class='sapEpmModelerToolbarItemTitle']"
+	}
+	
+}

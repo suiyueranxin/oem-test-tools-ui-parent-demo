@@ -1,0 +1,10 @@
+{
+	"busyindicator": {
+		"type": "Button",
+		"path": "//div[contains(@id,'-busyIndicator')]"
+	},
+	"prompt": {
+		"type": "Dialog",
+		"path": "//div[@data-ff-name='VariableDialog']"
+	}
+}

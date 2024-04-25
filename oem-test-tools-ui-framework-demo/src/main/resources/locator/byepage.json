@@ -1,0 +1,6 @@
+{
+	"byetext": {
+		"type": "Span",
+		"path": "//span[@class='goodbyeText']"
+	}
+}

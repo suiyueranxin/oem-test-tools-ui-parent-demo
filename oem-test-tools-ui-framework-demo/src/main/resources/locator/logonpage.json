@@ -1,0 +1,26 @@
+{
+	"user": {
+		"type": "Input",
+		"path": "//input[@id='USERNAME_FIELD-inner']"
+	},
+	"pwd": {
+		"type": "Input",
+		"path": "//input[@id='PASSWORD_FIELD-inner']"
+	},
+	"logon": {
+		"type": "Button",
+		"path": "//button[@id='LOGIN_LINK']"
+	},
+	"user2": {
+		"type": "Input",
+		"path": "//input[@id='j_username']"
+	},
+	"pwd2": {
+		"type": "Input",
+		"path": "//input[@id='j_password']"
+	},
+	"logon2": {
+		"type": "Button",
+		"path": "//button[@id='logOnFormSubmit']"
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"tile": {
+		"type": "Tile",
+		"path": "//*[contains(@aria-label,'%s')]/ancestor::li[@class='sapUshellTile']"
+	},
+	"tiles": {
+		"type": "Tile",
+		"path": "//li[@class='sapUshellTile']"
+	},
+	"samldlg": {
+		"type": "Dialog",
+		"path": "//div[@id='help4-saml-receiver']"
+	},
+	"infobar": {
+		"type": "Comp",
+		"path": "//div[@id='sap-wpb-help4-fiori-h4-infobar']"
+	},
+	"infobarclosebtn": {
+		"type": "Button",
+		"path": "//div[@id='sap-wpb-help4-fiori-h4-infobar']//button[@title='Close']"
+	},
+	"navigator": {
+		"type": "Navigator",
+		"path": "//ul[@aria-label='Group Navigation']"
+	}
+}

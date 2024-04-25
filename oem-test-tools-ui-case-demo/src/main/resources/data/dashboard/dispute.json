@@ -1,0 +1,11 @@
+{
+	"tileName": "Dispute Management Reporting",
+	"tileGroup": "Analytics for Dispute Management",
+	"user" : "AR_MANAGER",
+	"pageCount": 4,
+	"titles": ["Open Disputes", "Processing Days", "New and Solved", "Solved Disputes"],
+	"disputedAmount": "$243,991",
+	"bks": ["disputes_1.png", "disputes_2.png", "disputes_3.png", "disputes_4.png"],
+	"variables": ["C_OPENDISPUTECASE", "Display Currency", "European Euro"],
+	"cpCurrency": "in EUR"
+}

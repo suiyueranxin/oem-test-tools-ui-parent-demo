@@ -1,0 +1,14 @@
+{
+	"pagetitles": {
+		"type": "Button",
+		"path": "//span[contains(@class,'sapEpmUiTabContainerTabTitle')]"
+	},
+	"pagetitle": {
+		"type": "Button",
+		"path": "//span[contains(@class,'sapEpmUiTabContainerTabTitle')][text()='%s']"
+	},
+	"contextmenu": {
+		"type": "ContextMenu",
+		"path": "//div[contains(@class, 'contextMenu')]"
+	}
+}

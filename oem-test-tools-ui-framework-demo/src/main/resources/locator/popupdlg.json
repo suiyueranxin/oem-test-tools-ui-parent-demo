@@ -1,0 +1,10 @@
+{
+	"popupok": {
+		"type": "Button",
+		"path": "//footer[@class='sapMDialogFooter']//button[1]"
+	},
+	"popupcancel": {
+		"type": "Button",
+		"path": "//footer[@class='sapMDialogFooter']//button[2]"
+	}
+}

@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.sap</groupId>
+    <artifactId>oem-test-tools-ui-parent-demo</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>oem-test-tools-ui-case-demo</artifactId>
+  <properties>
+  	<testng>testng.xml</testng>
+  </properties>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>org.testng</groupId>
+	    <artifactId>testng</artifactId>
+	</dependency>
+	
+	<dependency>
+	    <groupId>io.qameta.allure</groupId>
+	    <artifactId>allure-testng</artifactId>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-simple</artifactId>
+	</dependency>
+	
+	<dependency>
+		<groupId>com.sap</groupId>
+		<artifactId>oem-test-tools-ui-framework-demo</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+  </dependencies>
+  
+  <build>
+  	<plugins>
+  		<plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <configuration>
+                <suiteXmlFiles>
+                    <suiteXmlFile>${testng}</suiteXmlFile>
+                </suiteXmlFiles> 
+                <argLine>
+                    -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                </argLine>
+            </configuration>  
+            <dependencies>
+                <dependency>
+                    <groupId>org.aspectj</groupId>
+                    <artifactId>aspectjweaver</artifactId>
+                    <version>${aspectj.version}</version>
+                </dependency>
+            </dependencies>
+       	</plugin>
+  	</plugins>
+  </build>
+</project>

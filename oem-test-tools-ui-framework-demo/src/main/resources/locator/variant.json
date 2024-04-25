@@ -1,0 +1,62 @@
+{
+	"saveVariant": {
+		"type": "Button",
+		"by": "xpath",
+		"path": "//button[.='Save']"
+	},
+	"saveAsVariant": {
+		"type": "Button",
+		"by": "xpath",
+		"path": "//button[.='Save As']"
+	},
+	"manageVariant": {
+		"type": "Button",
+		"by": "xpath",
+		"path": "//button[.='Manage']"
+	},
+	"variants": {
+		"type": "PopoverList",
+		"by": "xpath",
+		"path": "//div[@class='sapMPopoverCont']"
+	},
+	"saveVariantDlg": {
+		"type": "VariantSaveDlg",
+		"by": "xpath",
+		"path": "//div[contains(@class,'sapMDialog') and @role='dialog']"
+	},
+	"selectViewBtn": {
+		"type": "Button",
+		"by": "xpath",
+		"path": "//div[@title='Select View']//button"
+	},
+	"variantName": {
+		"type": "Input",
+		"by": "xpath",
+		"path": "//input[@class='sapMInputBaseInner']"
+	},
+	"variantOption": {
+		"type": "CheckBox",
+		"by": "xpath",
+		"path": "//div[.='%s' and @role='checkbox']"
+	},
+	"searchVariant": {
+		"type": "SearchInput",
+		"by": "xpath",
+		"path": "//div[@role='toolbar']//form"
+	},
+	"variantView": {
+		"type": "VariantView",
+		"by": "xpath",
+		"path": "//input[@value='%s']/ancestor::tr[contains(@class,'sapMListTblRow')]"
+	},
+	"cancelBtn": {
+		"type": "Button",
+		"by": "xpath",
+		"path": "//button[.='Cancel']"
+	},
+	"OKBtn": {
+		"type": "Button",
+		"by": "xpath",
+		"path": "//button[.='OK']"
+	}
+}

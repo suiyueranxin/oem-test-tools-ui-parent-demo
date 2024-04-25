@@ -1,0 +1,6 @@
+{
+	"tile": {
+		"type": "Tile",
+		"path" : "//div[text()='Data Analyzer']/ancestor::li[@class='sapUshellTile']"
+	}
+}

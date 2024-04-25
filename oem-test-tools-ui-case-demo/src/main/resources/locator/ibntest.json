@@ -1,0 +1,6 @@
+{
+	"disputeamount": {
+		"type": "Span",
+		"path" : "//span[@class='primary-number']"
+	}
+}

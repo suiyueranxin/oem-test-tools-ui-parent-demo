@@ -1,0 +1,10 @@
+{
+	"page": {
+		"type": "Page",
+		"path": "//div[@id='canvas']"
+	},
+	"searchpage": {
+		"type": "Page",
+		"path": "//div[@id='searchPage']"
+	}
+}

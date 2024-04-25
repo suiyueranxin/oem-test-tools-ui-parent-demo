@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="env" value="test"/>
+  <test name="Test">
+  	<classes>
+      <class name="topic.s4hc.dashboard.DashboardTest"/>
+      <!-- class name="topic.s4hc.dashboard.ibn.IbnTest"/>  -->
+    </classes>
+  </test> <!-- Test -->
+  <listeners>
+  <listener class-name="runtime.TestRunnerListener"></listener>
+  </listeners>
+</suite> <!-- Suite -->
